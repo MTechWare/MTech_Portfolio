@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - MTECH</title>
+    <!-- Add Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .gradient-button {
+            background: linear-gradient(to right, #F97000 25%, #006cb9 75%);
+            transition: background 0.3s ease;
+        }
+
+        .gradient-button:hover {
+            background: linear-gradient(to right, #006cb9, #F97000);
+        }
+    </style>
+      <script src="index.js"></script>
+
+</head>
+
+<body style="background-color: #23272a;" class="text-white">
+    <header class="text-center py-10">
+        <img class="mx-auto w-58 h-44" src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/MTech.png?v=1713309283952" alt="Logo">
+    </header>
+
+    <div class="my-8 flex justify-center">
+        <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-md">
+            <h2 class="text-2xl font-bold mb-4 text-center">Sign Up</h2>
+            <form class="space-y-4">
+                <div>
+                    <label for="username" class="block text-gray-300">Username</label>
+                    <input type="text" id="username" name="username" class="w-full rounded-md bg-gray-700 text-white border-none py-2 px-4">
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-300">Email</label>
+                    <input type="email" id="email" name="email" class="w-full rounded-md bg-gray-700 text-white border-none py-2 px-4">
+                </div>
+                <div>
+                    <label for="password" class="block text-gray-300">Password</label>
+                    <input type="password" id="password" name="password" class="w-full rounded-md bg-gray-700 text-white border-none py-2 px-4">
+                </div>
+                <div>
+                    <button onclick="signUp()" type="button" class="gradient-button text-white font-bold py-2 px-4 rounded inline-block w-full">Sign Up</button>
+                </div>
+            </form>
+           <p class="text-gray-300 text-center mt-4">Already have an account? <a href="login.html" class="text-blue-500">Login</a></p>
+        </div>
+    </div>
+
+    <footer class="text-center py-16">
+        <p class="text-gray-300">&copy; 2024 MTech Landing Page. All rights reserved.</p>
+        <p class="text-gray-300">&#x2605; All Data Stored Is Locally. </p>
+    </footer>
+
+</body>
+
+</html>

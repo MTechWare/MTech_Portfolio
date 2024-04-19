@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTech Main Page</title>
+    <!-- Add Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+  .gradient-button {
+    background: linear-gradient(to right, #F97000 25%, #006cb9 75%);
+    transition: background 0.3s ease;
+  }
+  .gradient-button:hover {
+    background: linear-gradient(to right, #006cb9, #F97000);
+  }
+</style>
+</head>
+  
+<script src="index.js"></script>
+
+<body style="background-color: #23272a;" class="text-white"> 
+    <header class="text-center py-10">
+        <img class="mx-auto w-58 h-44" src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/MTech.png?v=1713309283952" alt="Logo">
+      <div class="my-8 flex justify-center">
+       <div class="my-4 flex justify-center space-x-4">
+            <a href="#" onclick="goToSignUp()" class="gradient-button text-white font-bold py-2 px-4 rounded inline-block">Sign Up</a>
+            <a href="#" onclick="goToLogin()" class="gradient-button text-white font-bold py-2 px-4 rounded inline-block">Login</a>
+            <a href="#" onclick="goToDash()" class="gradient-button text-white font-bold py-2 px-4 rounded inline-block">Dashboard</a>
+        </div>
+
+      </div>
+      <span class="info-label">Welcome,</span>
+              <span id="user-name" class="info-value">+ 1</span>
+      <div class="my-8 flex justify-center">
+    <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-xs"> 
+        <h2 class="text-xl font-bold mb-2">Main Developer</h2> 
+        <img src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/MT_SmallBox.png?v=1713309380470" alt="Testimonial 2" class="w-20 h-auto mx-auto mb-4">
+        <h2 class="text-xl font-bold mb-2">MTech</h2>
+        <p class="text-gray-300">Hey, my name is Max. I am currently going to school to be a CIT - Computer Support Specialist. When I am not in school, I like to work on some of my own projects when I have some free time. I dont upload all of my projects, but you can see some below.</p> <!-- Replace with your description -->
+    </div>
+</div>
+    </header>
+          <div class="my-8 flex justify-center">
+            
+          <h2 class="text-2xl font-bold">Current Projects</h2> 
+        </div>
+  
+   <div class="flex justify-center gap-8 mt-8">
+    <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-xs">
+        <img src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/Download-FileInfowebsite.jpg?v=1713324550176" alt="Project 1" class="w-full rounded-md mb-4">
+        <h2 class="text-xl font-bold mb-2">Download-FileInfo</h2>
+        <p class="text-gray-300 mb-4">Download-FileInfo is a super lite weight file information retrieval tool designed to simplify the process of gathering essential details about files and documents in C#. Whether you're a professional managing a vast library of digital assets, a developer working with file uploads, or simply someone who wants to quickly access file metadata, Download-FileInfo has you covered.</p>
+        <div class="text-center">
+            <a href="https://github.com/MTechWare/Download-FileInfo" target="_blank" class="gradient-button text-white font-bold py-2 px-4 rounded inline-block">GitHub Repository</a>
+        </div>
+    </div>
+     
+      <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-xs">
+        <img src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/Attach-Appwebsite.jpg?v=1713324379234" alt="Project 1" class="w-full rounded-md mb-4">
+        <h2 class="text-xl font-bold mb-2">Attach-App</h2>
+        <p class="text-gray-300 mb-4">Attach App Monitor is a robust tool designed to provide real-time insights into your system's resource utilization. With a sleek and intuitive interface, it offers comprehensive information about CPU and memory usage, along with their average percentages. Whether you're a developer, or a power user, this app empowers you to monitor and optimize your system's performance efficiently.</p>
+        <div class="text-center">
+            <a href="https://github.com/MTechWare/Attach-App" target="_blank" class="gradient-button text-white font-bold py-2 px-4 rounded inline-block">GitHub Repository</a>
+        </div>
+    </div>
+     
+      <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-xs">
+        <img src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/mtechwebsite.jpg?v=1713324262602" alt="Project 1" class="w-full rounded-md mb-4">
+        <h2 class="text-xl font-bold mb-2">MTech-Loader</h2>
+        <p class="text-gray-300 mb-4">Introducing "MTech Loader" – the ultimate solution for seamless app management on your device. Gone are the days of endlessly scrolling through your app drawer or cluttered home screen searching for that one app you need. With MTech Loader, streamline your app usage experience like never before. With its intuitive interface, MTech Loader allows you to categorize your apps based on usage frequency, type, or any custom criteria you prefer.</p>
+        <div class="text-center">
+            <a href="https://github.com/MTechWare/MTech_Loader" target="_blank" class="gradient-button text-white font-bold py-2 px-4 rounded inline-block">GitHub Repository</a>
+        </div>
+    </div>
+     
+</div>
+    <section class="text-center py-16">
+        <h2 class="text-2xl font-bold mb-8">Testimonials</h2>
+        <div class="flex justify-center space-x-8">
+            <!-- Testimonial 1 -->
+            <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-xs"> 
+                <img src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/ProfilePicWebsite.png?v=1713325288804" alt="Testimonial 1" class="rounded-full w-20 h-20 mx-auto mb-4">
+                <p class="text-gray-300">"MTech helped me setup my own personal website in no time!" - User</p>
+            </div>
+            <!-- Testimonial 2 -->
+            <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-xs"> 
+                <img src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/ProfilePicWebsite.png?v=1713325288804" alt="Testimonial 2" class="rounded-full w-20 h-20 mx-auto mb-4"> 
+                <p class="text-gray-300">"Nice to have someone help me build my Compter! Thank you!" - User</p>
+            </div>
+            <!-- Testimonial 2 -->
+          <div style="background-color: #2c2f33;" class="rounded-lg shadow-md p-8 max-w-xs"> 
+                <img src="https://cdn.glitch.global/0940ebbe-b751-47c3-99cc-bf80638d4b2c/ProfilePicWebsite.png?v=1713325288804" alt="Testimonial 2" class="rounded-full w-20 h-20 mx-auto mb-4"> 
+                <p class="text-gray-300">"He is one of the best people to do it! 24/7 Support!" - User</p>
+            </div>
+        </div>
+    </section>
+
+  <div class="mt-8 flex justify-center">
+    <!-- Paste your Discord widget HTML code snippet here -->
+<iframe src="https://discord.com/widget?id=536370340662607872&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+  </div>
+
+  <footer class="text-center py-16">
+        <p class="text-gray-300">&copy; 2024 MTech Landing Page. All rights reserved.</p>
+    
+    </footer>
+  
+</body>
+</html>
